@@ -1,7 +1,7 @@
 .App {
   text-align: center;
 }
-
+/* 
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -35,4 +35,35 @@
   to {
     transform: rotate(360deg);
   }
+} */
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600&display=swap');
+
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  background-color: #171717;
+  color: #FFFFFF;
+  scrollbar-width: none;  
+ }
+
+
+.icon-container {
+  left: 8px;
+  transition: all 0.3s ease;
+}
+
+.hide-icon {
+  
+  pointer-events: none;
+}
+
+.search-input {
+  transition: all 0.3s ease;
+  padding-left: 30px;
+  /* Add padding to accommodate the icon */
+}
+
+.hide-input {
+  width: 0;
+  padding: 0;
 }
